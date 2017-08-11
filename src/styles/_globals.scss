@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import './variables';
+
+html {
+    background-color: indianred;
+    font: {
+        family: 'Raleway';
+    }
+}
+
+Link {
+    cursor: pointer;
+}
+
+a {
+    &:active, &:hover, &:visited, &:link {
+        text-decoration: none;
+        color: $lighttext;
+    }
+}

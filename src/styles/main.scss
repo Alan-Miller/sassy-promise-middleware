@@ -1,0 +1,14 @@
+@import 'reset';
+@import 'globals';
+
+@import 'functions';
+@import 'mixins';
+@import 'variables';
+
+/* Component styles */
+@import 'componentStyles/Animation';
+@import 'componentStyles/Details';
+@import 'componentStyles/Header';
+@import 'componentStyles/Home';
+@import 'componentStyles/Products';
+@import 'componentStyles/Profile';
